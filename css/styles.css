@@ -1,0 +1,209 @@
+:root {
+    --main-color: #ffffff;
+    --text-color: #434455;
+    --primary-brand: #4d5ae5;
+    --pressed-state: #404bbf;
+    --dark: rgba(46, 47, 66, 1);
+    --success: #31d0aa;
+    --subtle-text: #8e8f99;
+    --accent: #e7e9fC;
+    --light: #f4f4fd;
+    --hero-background: rgba(46, 47, 66, 0.7);
+    --modal-background: #fcfcfc;
+    --modal-overlay: rgba(46, 47, 66, 0.4);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--main-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ 
+
+.logo {
+    color: var(--primary-brand);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-span {
+    color: var(--dark);
+}
+
+.header-nav {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-nav:hover {
+    color: var(--pressed-state);
+}
+
+.header-nav:focus {
+    color: var(--pressed-state);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-link {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link:focus {
+    color: var(--pressed-state);
+}
+
+.header-address-link:hover {
+    color: var(--pressed-state);
+}
+
+.advantage {
+    background: var(--dark);
+}
+
+.advantage-headline {
+    color: var(--main-color);
+    font-size: 56px;
+    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.advantage-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-color);
+    cursor: pointer;
+    background: var(--primary-brand);
+}
+
+.advantage-button:focus {
+    background-color: var(--pressed-state);
+}
+
+.advantage-button:hover {
+    background-color: var(--pressed-state);
+}
+
+.advantage-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.advantage-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-name {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark);
+}
+
+.team {
+    background: var(--light);
+}
+
+.team-names {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.team-professions {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-section {
+    background-color: var(--dark);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light);
+}
+
+.logo-footer {
+    color: var(--light);
+}
+
+.team-card {
+    background: var(--main-color);
+}
+
+ 
+.portfolio-photo-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.portfolio-project-style {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.portfolio-nav-button:hover {
+    color: var(--main-color);
+    background-color: var(--pressed-state);
+}
+
+.portfolio-nav-button:focus {
+    color: var(--main-color);
+    background-color: var(--pressed-state);
+}
+
+.portfolio-nav-button {
+    font-family: "Roboto", sans-serif;
+    background: var(--light);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+}
