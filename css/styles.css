@@ -78,7 +78,7 @@ body {
 }
 
 .container-adv{
-   padding-top: 120px;
+   padding-top: 120px 0;
 }
 
 .container-nav{
