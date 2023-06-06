@@ -80,7 +80,7 @@ body {
 }
 
 .container-adv{
-   padding-top: 120px 0;
+   padding: 120px 0;
 }
 
 .container-nav{
@@ -339,7 +339,7 @@ width: calc((100% - 48px) / 3);
 }
 
 .menu{
-    gap:40px;
+  gap: 40px;
 }
 
 .address-list{
