@@ -317,6 +317,7 @@ text-transform: uppercase;
     margin: 0 auto;
     margin-bottom: 72px;
     justify-content: center;
+    gap: 40px;
 }
 
 .portfolio-content{
