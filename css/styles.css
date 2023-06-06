@@ -47,11 +47,14 @@ body {
 .list {
     list-style: none;
     display: flex;
-    gap: 24px;
+    gap: 40px;
+
 }
 
 .link {
     text-decoration: none;
+    display:inline-block;
+    margin-bottom: 16px
 }
 
  
@@ -78,7 +81,7 @@ body {
 }
 
 .container-adv{
-   padding-top: 120px 0;
+   padding: 120px 0;
 }
 
 .container-nav{
@@ -203,6 +206,7 @@ width: calc((100% - 72px) / 4);
     text-transform: capitalize;
     text-align: center;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .team {
