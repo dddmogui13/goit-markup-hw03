@@ -370,10 +370,26 @@ width: calc((100% - 48px) / 3);
 .header-list{
     list-style: none;
     display: flex;
-    gap: 24px;
+    gap: 40px;
 }
 .portfolio-list{
     list-style: none;
     display: flex;
     gap: 40px;
+}
+
+.wawd-list{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.team-list{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.conadv-list{
+    list-style: none;
+    display: flex;
+    gap: 24px;
 }
