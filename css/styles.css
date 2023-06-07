@@ -66,7 +66,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 76px;
+    padding: 24px 0;
 }
 
 .logo-span {
