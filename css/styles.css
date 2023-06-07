@@ -318,6 +318,7 @@ text-transform: uppercase;
     margin-bottom: 72px;
     justify-content: center;
     gap: 24px;
+    list-style-type: none;
 }
 
 .portfolio-content{
