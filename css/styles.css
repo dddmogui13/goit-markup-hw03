@@ -248,6 +248,7 @@ width: calc((100% - 72px) / 4);
 
 .logo-footer {
     color: var(--light);
+    margin-right: 76px;
 }
 .footer-link{
 display: inline-block;
