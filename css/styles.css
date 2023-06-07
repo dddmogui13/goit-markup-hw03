@@ -48,6 +48,7 @@ body {
     list-style: none;
     display: flex;
     gap: 24px;
+    
 }
 
 
@@ -344,6 +345,7 @@ width: calc((100% - 48px) / 3);
 .address-list{
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 .visually-hidden{
     position: absolute;
