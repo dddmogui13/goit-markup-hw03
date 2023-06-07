@@ -249,6 +249,7 @@ width: calc((100% - 72px) / 4);
 .logo-footer {
     color: var(--light);
     margin-right: 76px;
+
 }
 .footer-link{
 display: inline-block;
@@ -318,7 +319,7 @@ text-transform: uppercase;
     margin: 0 auto;
     margin-bottom: 72px;
     justify-content: center;
-    gap: 24px;
+    gap: 40px;
 }
 
 .portfolio-content{
