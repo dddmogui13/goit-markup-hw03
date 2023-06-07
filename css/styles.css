@@ -340,7 +340,7 @@ width: calc((100% - 48px) / 3);
 }
 
 .menu{
-  gap: 40px;
+  gap: 24px;
 }
 
 .address-list{
